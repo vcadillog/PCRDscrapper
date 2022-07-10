@@ -1,0 +1,5 @@
+discord.py==1.7.3
+mitmproxy==8.0.0
+msgpack==1.0.3
+pycryptodome==3.14.1
+asyncio==3.4.3

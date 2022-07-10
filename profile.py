@@ -1,0 +1,4 @@
+USER = 111111111111111111 # COPY THE USER ID
+MY_CHANNEL_ID = 000000000000000000 # COPY THE CHANNEL ID
+TOKEN = 'xxxxxxxxxxxxxxxxxxxxxxxx.yyyyyy.zzzzzzzzzzzzzzzzzzzzzzzzzzz' # COPY THE TOKEN ID
+
