@@ -46,5 +46,7 @@ The script will run this indefinetly till you log in again or the server disconn
 
 The script restarts itself (only on linux) after an error is found or no new data is received after a set period of time, should be modified if you are running on windows or do it manually.
 
+Additional command !pvp shows the rank in demand.
+
 Code based on the repository:
 https://github.com/FabulousCupcake/pcr-exporter 
