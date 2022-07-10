@@ -42,7 +42,9 @@ This will display the data received in a proxy in the port 8080 or a custom port
 
 After the proxy replays the http request you should close the app.
 
-The script will run this indefinetly till you log in again or the server disconnects, only the stated situations stop the script, when the code is restarted it will keep running as the previous state cause the http flow is stored in saved_flows.pickle file
+The script will run this indefinetly till you log in again or the server disconnects, only the stated situations stop the script, when the code is restarted it will keep running as the previous state cause the http flow is stored in saved_flows.pickle file.
+
+The script restarts itself (only on linux) after an error is found or no new data is received after a set period of time, should be modified if you are running on windows or do it manually.
 
 Code based on the repository:
 https://github.com/FabulousCupcake/pcr-exporter 
